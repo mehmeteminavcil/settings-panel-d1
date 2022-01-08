@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive slide bar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+
+</head>
+
+<body>
+
+
+    <form action="#">
+        <ul class="form-list">
+            <h3 class="form-title ff-m">Settings</h3>
+            <!-------- switch buttons    ---------->
+            <li class="section ">
+                <ul class="section-list ">
+                    <li class="section-item ">
+                        <span>Dark mode</span>
+                        <label class="switch ">
+                            <input id="dark-btn" name="dark" type="checkbox">
+                            <span class="slider "></span>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <span>Desktop notifications</span>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round "></span>
+                        </label>
+                    </li>
+                    <li class="section-item">
+                        <span>Focused inbox</span>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </li>
+                </ul>
+            </li>
+            <!-------- checkbox    ---------->
+            <li class="section">
+                <ul class="section-list">
+                    <h4 class="section-title ff-m">Conversation view</h4>
+                    <li class="section-item ">
+                        <label class="cb-rounded">
+                            <input type="checkbox">
+                            <span class="inner"></span>
+                        </label>
+                        <span>Newest on top</span>
+                    </li>
+                    <li class="section-item">
+                        <label class="cb-rounded">
+                            <input type="checkbox" checked>
+                            <span class="inner"></span>
+                        </label>
+                        <span>Newest on bottom</span>
+                    </li>
+                    <li class="section-item">
+                        <label class="cb-rounded">
+                            <input type="checkbox">
+                            <span class="inner"></span>
+                        </label>
+                        <span>Off</span>
+                    </li>
+                </ul>
+            </li>
+            <!-------- radio buttons    ---------->
+            <li class="section">
+                <ul class="section-list">
+                    <h4 class="section-title ff-m">Reading panel</h4>
+                    <li class="section-item">
+                        <label class="cb-rounded">
+                            <input type="radio" name="radio-btn" checked>
+                            <span class="inner"></span>
+                        </label>
+                        <span>Show on the right</span>
+                    </li>
+                    <li class="section-item">
+                        <label class="cb-rounded">
+                            <input type="radio" name="radio-btn">
+                            <span class="inner"></span>
+                        </label>
+                        <span>Show on the bottom</span>
+                    </li>
+                    <li class="section-item">
+                        <label class="cb-rounded">
+                            <input type="radio" name="radio-btn">
+                            <span class="inner"></span>
+                        </label>
+                        <span>Hide</span>
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+            <a href="# ">View all settings</a>
+        </ul>
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
